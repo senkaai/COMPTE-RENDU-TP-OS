@@ -273,16 +273,17 @@ Handles  NPM(K)    PM(K)      WS(K)     CPU(s)     Id  SI ProcessName
 - leur nom et leur identifiant
 - ce sont forcément des processus très importants : les premiers lancés par votre OS !
 - pour le compte-rendu, isolez les 3 lignes qui les concernent dans la liste de tous les processus
-
+```
 REPONSE : 
         Get-Process | Sort-Object Id | Select-Object -First 3
-
+```
+```
 Handles  NPM(K)    PM(K)      WS(K)     CPU(s)     Id  SI ProcessName
 -------  ------    -----      -----     ------     --  -- -----------
       0       0       60          8                 0   0 Idle 
    5799       0       52       2708                 4   0 System
       0       0      184      50296               236   0 Secure System
-
+```
 
 
 
