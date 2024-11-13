@@ -71,10 +71,16 @@ inflating: /home/senkai/meow
 
 REPONSE :
 ```
-find . -type f -size 15M
-find . -type f -size 7c
-find . -type f -name cookie
-find . -type f -name ".*"
-find . -type f -newermt 2014-01-01 ! -newermt 2015-01-01
-find . -path "*/folderX/folderX/folderX/folderX/folderX/*"
+senkai@TPOS:~/Downloads/dawa$ find . -type f -size 15M
+./folder31/19/file39
+senkai@TPOS:~/Downloads/dawa$  grep -L '[^7]' * -r
+folder43/38/file41
+senkai@TPOS:~/Downloads/dawa$ find . -type f -name "cookie"
+./folder14/25/cookie
+senkai@TPOS:~/Downloads/dawa$ find . -type f -name ".*"
+./folder32/14/.hidden_file 
+senkai@TPOS:~/Downloads/dawa$ find . -type f -newermt "2014-01-01" ! -newermt "2015-01-01"
+./folder36/40/file43
+senkai@TPOS:~/Downloads/dawa$ find . -type f -path './*/*/*/*/*/*'
+./folder37/45/23/43/54/file43
 ```
