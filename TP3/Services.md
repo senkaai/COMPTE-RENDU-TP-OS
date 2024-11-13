@@ -285,7 +285,7 @@ senkai@TPOS:~$ systemctl daemon-reload
 senkai@TPOS:~$ systemctl start meow_web
 ==== AUTHENTICATING FOR org.freedesktop.systemd1.manage-units ====
 Authentication is required to start 'meow_web.service'.
-Authenticating as: Utsu otp akshan plat,,, (utsu)
+Authenticating as: senkai,,, (utsu)
 Password:
 ==== AUTHENTICATION COMPLETE ====
 ```
