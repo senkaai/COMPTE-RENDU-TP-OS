@@ -69,7 +69,6 @@ inflating: /home/senkai/meow
   - je pense que vous avez vu que la structure c'est 50 `folderX`, chacun contient 50 dossiers `X`, et chacun contient 50 `fileX`
   - bon bah là y'a un fichier qui est contenu dans `folderX/X/X/X/X/` et c'est le seul qui 5 dossiers parents comme ça
 
-REPONSE :
 ```
 senkai@TPOS:~/Downloads/dawa$ find . -type f -size 15M
 ./folder31/19/file39
