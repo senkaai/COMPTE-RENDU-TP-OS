@@ -219,9 +219,11 @@ data blocks changed from 786432 to 4454400
 
 🌞 **Déterminer la taille de la nouvelle partition**
 
+```
 senkai@senkai:~$ df -h /mnt/meow
 Filesystem               Size  Used Avail Use% Mounted on
 /dev/mapper/cat-meoooow   17G  155M   17G   1% /mnt/meow
+```
 
 ## 3. Montage automatique
 
